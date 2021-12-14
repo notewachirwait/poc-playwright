@@ -8,10 +8,18 @@ git clone git@github.com:notewachirwait/poc-playwright.git
 
 $ npm install
 
-# cypress run open mode
+# playwright run open mode
 
 $ npx playwright test --headed
 
-# cypress run headless mode
+# playwright run headless mode
 
 $ npx playwright test
+
+# playwright generate html report
+
+npx playwright test --reporter=html
+
+# playwright show html report
+
+npx playwright show-report
