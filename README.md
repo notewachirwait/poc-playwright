@@ -10,16 +10,12 @@ $ npm install
 
 # playwright run open mode
 
-$ npx playwright test --headed
+$ npm run test-open
 
 # playwright run headless mode
 
-$ npx playwright test
+$ npm run test
 
 # playwright generate html report
 
-npx playwright test --reporter=html
-
-# playwright show html report
-
-npx playwright show-report
+$ npm run test-report
