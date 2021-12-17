@@ -1,0 +1,33 @@
+{
+  "name": "poc-playwright",
+  "version": "1.0.0",
+  "description": "## 1. Clone the project",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "eslint --ext \"tests/**/*.{js,jsx,ts,tsx}\"",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "test-report": "npx playwright test --reporter=html && npx playwright show-report",
+    "debug": "npx playwright test --debug",
+    "test": "npx playwright test",
+    "test-open": "npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notewachirwait/poc-playwright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notewachirwait/poc-playwright/issues"
+  },
+  "homepage": "https://github.com/notewachirwait/poc-playwright#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "typescript": "^4.5.4"
+  }
+}
